@@ -1,9 +1,0 @@
-What is the Repository Pattern ?
-
-It's about an (abstract class)
-- determine inside it the all Featured methods only
-- without Implementation
-- determine return type and argument
-- (Handle Exception) Don't use try & catch inside it ==> use : Return Types of Cases and States ( success & failure )
-- To Return Two Types for method use (dartz) package
-- and use (Either) class and put your Two Types List side and Right

@@ -9,7 +9,6 @@ class HomeRepoImpl implements HomeRepo {
   final ApiService apiService;
 
   HomeRepoImpl(this.apiService);
-
   @override
   Future<Either<Failures, List<BookModel>>> fetchFeaturedBooks() async {
     try {
